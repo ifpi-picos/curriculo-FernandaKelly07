@@ -6,14 +6,24 @@ h1,h3{
 img#img{
     height:420px;
     width:450px;
+    display: inline;
 }
 
 body{
     width: 50%;
     background-color: white;
-    border: 3px solid rgb(50,20,10)
 }
 
 .linha{
     border-top: 2px solid black;
+}
+
+img#face{
+    width: 50px;
+    height: 50px;
+}
+
+#nome{
+    display: inline;
+    float: right;
 }
